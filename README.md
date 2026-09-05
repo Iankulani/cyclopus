@@ -67,6 +67,11 @@ venv\Scripts\activate     # Windows
 pip install -r requirements.txt
 pip install -e .
 ```
+# Alternative: Force pip install as root (NOT recommended!)
+
+```bash
+pip install -r requirements.txt --break-system-packages
+```
 # Run tests
 ```bash
 python3 commands-test.py
