@@ -32,6 +32,7 @@ Complementing the human-centric attack vectors, Cyclopus incorporates a full-spe
 
 The module supports both internal and external network assessments, enabling drill participants to simulate attacker movements from initial foothold to lateral traversal across segmented environments. Advanced features include SMB relay attacks, Active Directory enumeration, Kerberos ticket harvesting, pass-the-hash techniques, and cloud infrastructure probing for AWS, Azure, and Google Cloud environments. The network module operates in tandem with the social engineering component, allowing operators to chain attacks—for instance, using a phishing email to deliver a payload that establishes network persistence, followed by automated internal reconnaissance and privilege escalation.
 
+---
 
 For comprehensive endpoint visibility and behavioral monitoring, Cyclopus features a powerful Keylogger Deployment Module that enables drill coordinators to deploy both user-mode and kernel-mode keystroke logging capabilities across Windows, macOS, and Linux endpoints. This module goes beyond simple keystroke capture, incorporating advanced features such as clipboard monitoring, screenshot capture at configurable intervals, active window tracking, application usage analytics, and even microphone and webcam activation for complete environmental awareness. 
 
